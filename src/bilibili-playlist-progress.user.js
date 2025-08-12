@@ -246,7 +246,7 @@
                 if (url !== lastUrl) {
                     lastUrl = url;
                     // 延迟执行，确保页面加载完成
-                    setTimeout(showPlaylistProgress, 1000);
+                    setTimeout(showPlaylistProgress, 2000);
                 }
             }).observe(document, { subtree: true, childList: true });
         }
